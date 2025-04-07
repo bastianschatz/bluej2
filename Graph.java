@@ -4,6 +4,7 @@ import java.util.Map;
 public class Graph {
     private Map<String, Integer> cities;
     private int[][] adjacencyMatrix;
+    private int x;
 
     public Graph() {
         initializeCities();
